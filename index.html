@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Ovee Muley</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html"> Ovee Muley</a></li>
+                <li> <a href="index.html"> Home</a></li>
+                <li> <a href="#my-work"> Projects</a></li>
+                <li> <a href="#my-skills"> Skills/Coursework</a></li>
+                <li> <a href="#contact"> Contact</a></li>
+            </ul>
+        </nav>
+        <div class = "flex-container">
+            <img height = "400px" width="300px" src = "Content/headshot_.jpeg">
+            <div class = "text-container">
+                <h1>Ovee Muley</h1>
+                <p>I'm Ovee (pronounced OH-vee) from Chicago, IL. I'm studying Computer Science + Geography & Geographic Information Science at the<strong> <a href="https://siebelschool.illinois.edu/", id="UIUC"> Univeristy of Illinois at Urbana-Champaign</a></strong>. 
+                Aspriring software and AI developer, passionate about using technology to solve real-world problems.</p>
+                <a href="https://www.linkedin.com/in/ovee-muley-2a4a4a268/" class = "cta-button secondary" >LinkedIN</a>
+                <a href="Content/ovee_resume_cs.pdf" download class="cta-button secondary" id="accent-button">  <i class="fas fa-download"></i> Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="my-work">
+        <h2>Projects</h2>
+
+        <div class="card-container">
+
+          <div class="card" id="vibe-check">
+            <video class="card-img-top" autoplay loop muted playsinline>
+                <source  src="Content/vibe_check.mp4" type="video/mp4">
+            </video>
+            <div class="card-body">
+              <h5 class="card-title">Vibe-Check</h5>
+              <p class="card-text">Sentiment-Analysis Chrome Extension; displays the tone of selected text using DistilBERT LLM.</p>
+              <a href="https://github.com/omule016/hack-illinois-26" class="btn btn-primary">GitHub</a>
+            </div>
+          </div>
+
+    <div class="card" id="academic_tea">
+        <video class="card-img-top" autoplay loop muted playsinline>
+            <source  src="Content/acdemic_tea.mp4" type="video/mp4">
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">Academic Tea</h5>
+          <p class="card-text">Project from HackIllinois; converts complex academic texts into engaging, gossip-style summaries using LLMs.</p>
+          <a href="https://github.com/omule016/hack-illinois-26" class="btn btn-primary">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card" id="agri-sense">
+        <video class="card-img-top" autoplay loop muted playsinline>
+            <source  src="Content/agri-sense.mp4" type="video/mp4">
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">Agri-sense</h5>
+          <p class="card-text"> Frontend developer for a crop-monitoring web app; built card components and connected Flask API.</p>
+          <a href="https://github.com/bigbenno1/agri-sense" class="btn btn-primary">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+
+    </section>
+
+    <section id="my-skills">
+        <div class="flex-container">
+            <div class="text-container">
+                <h2>Skills & Coursework</h2>
+                <details>
+                    <summary>Skills</summary>
+                    <p id="category">  Computer Science & AI
+                    </p>
+                    <ul class="skills-list">
+                        <li><strong>Languages:</strong> Python, Java, C++, R, JavaScript, React.js, HTML, CSS</li>
+                        <li><strong>Libraries:</strong> PyTorch, HuggingFace, Pandas, Regex, Numpy, Transformers</li>
+                        <li><strong>Tools:</strong> Modal, FastAPI, DistilBERT, Git, GitHub</li>
+                      </ul>
+
+                    <p id="category">  GIS
+                    </p>
+                    <ul class="skills-list">
+                        <li><strong>Applications:</strong> ArcGIS Pro, ArcGIS Online, ArcMap, StoryMaps</li>
+                        <li><strong>Languages & Libraries:</strong> Geopandas, R, Dplyr</li>
+                       </ul>
+                </details>
+                <details>
+                    <summary>Coursework</summary>
+                    <p id="category">  Computer Science & Math
+                    </p>
+                    <ul class="skills-list">
+                        <li><strong>Coding:</strong> Data Structures & Algorithms, Computer Science II</li>
+                        <li><strong>Theory:</strong> Linear Algebra with Computational Applications, Computer Science II</li>
+                    </ul>
+
+                    <p id="category">  GIS
+                    </p>
+                    <ul class="skills-list">
+                        <li><strong>Coding:</strong> Enviornmental Data Science</li>
+                        <li><strong>GIS:</strong> Introduction to Geographic Information Systems</li>
+                      
+                       </ul>
+                    
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+      
+        <div style="display: flex; flex-direction: column; gap: 1.5em; align-items: center; margin-top: 2em;">
+      
+          <!-- Email -->
+          <a href="mailto:ovmcommon@gmail.com" style="text-decoration: none; color: var(--text-color); display: flex; align-items: center; gap: 0.5em;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+            <span>Email: ovmcommon@gmail.com</span>
+          </a>
+      
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/ovee-muley/" target="_blank" style="text-decoration: none; color: var(--text-color); display: flex; align-items: center; gap: 0.5em;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.29c-.97 0-1.75-.78-1.75-1.75s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.29h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.38v4.59h-3v-9h2.88v1.23h.04c.4-.76 1.37-1.57 2.83-1.57 3.03 0 3.59 1.99 3.59 4.58v5.76z"/>
+            </svg>
+            <span>LinkedIn: linkedin.com/in/ovee-muley/</span>
+          </a>
+      
+          <!-- GitHub -->
+          <a href="https://github.com/omuley" target="_blank" style="text-decoration: none; color: var(--text-color); display: flex; align-items: center; gap: 0.5em;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 .5c-6.63 0-12 5.37-12 12 0 5.3 3.44 9.8 8.21 11.38.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.07-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.34-1.75-1.34-1.75-1.09-.75.08-.74.08-.74 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.48.99.11-.78.42-1.3.76-1.6-2.66-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.51.12-3.15 0 0 1.01-.32 3.3 1.23a11.52 11.52 0 013-.4c1.02.01 2.05.14 3 .41 2.28-1.55 3.29-1.23 3.29-1.23.66 1.64.24 2.85.12 3.15.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.48 5.92.43.37.81 1.1.81 2.22 0 1.6-.02 2.89-.02 3.28 0 .32.22.7.82.58C20.56 22.3 24 17.8 24 12.5c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span>GitHub: github.com/omuley</span>
+          </a>
+      
+        </div>
+      </section>
+
+    <footer>
+        <a href="">LinkedIn</a>
+        <a href="">My Work</a>
+        <a href="mailto:ovmcommon@gmail.com">Contact</a>
+    </footer>
+</body>
+</html>

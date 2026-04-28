@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --base-color: #fcf8f7;      
+    --text-color: #2c2f36;
+    --primary-color: #5a8d87; 
+    --secondary-color: #3b4a57; 
+    --accent-color: #d6a77a;    
+    --color-1: #ffffff;          
+    --color-2: #edf3f2;          
+    --color-3: #f6f5f4;   
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: IBM Plex Sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+}
+
+body {
+    padding: 1em;
+    background-color: var(--base-color);
+}
+
+h1,h2,h3 {
+    font-family: Roberto, IBM Plex Sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    margin: 1em auto 3em auto;
+    width: min(1000px, 100%);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2em;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-family: Roberto, IBM Plex Sans;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+header, section {
+    margin: 2em auto;
+    width: min(75em, 100%);
+    background-color: var(--color-1);
+    padding: min(2em, 15%);
+    border-radius: 1em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+header img {
+    max-width: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.text-container {
+    flex: 0 1 34em;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.text-container {
+    margin: 1em 0 1em 0;
+    font-size: 1.25rem;
+    padding: .25em .5em; 
+}
+
+#UIUC {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+#UIUC:hover {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.cta-button {
+    display: inline-block; 
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    padding: .25em .5em; 
+    border-radius: .5em;
+    font-weight: 600;
+    margin-top: 0.75em; 
+    margin-right: 0.25em; 
+}
+
+.cta-button:hover  {
+    background-color: var(--accent-color);
+}
+
+
+
+#accent-button {
+    background-color: var(--secondary-color);
+}
+
+#accent-button:hover {
+    background-color: var(--accent-color);
+}
+section {
+    padding: 3em min(2em, 15%);
+    background-color: var(--color-2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+section p {
+    margin-top: 1em;
+    font-size: 1.25rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+
+.card {
+    width: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin: 2rem;
+}
+#vibe-check {
+    background:#fbeff2ef;
+}
+#academic_tea {
+    background:#faf0e1;
+}
+
+
+#agri-sense {
+    background:
+    #f7fcf8
+    ;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: var(--accent-color);
+}
+
+details {
+    margin-top: 1em;
+    background-color: var(--base-color);
+}
+
+details summary {
+    padding: 1em;
+    font-size: 1.7rem;
+    font-family: Roberto, IBM Plex Sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+details p {
+    padding: 0 1em 1em 1em;
+}
+
+#category {
+    text-align:left;
+    padding: 5px 15px;
+    font-size: 1.25rem;
+    font-weight: 650;
+    margin-top: 15px;
+
+    color: #333;
+    font-family: Roberto, IBM Plex Sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+  
+.skills-list li {
+    text-align:left;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    font-family: IBM Plex Sans;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+  .skills-list strong {
+    color: #007acc;
+    font-weight: 500;
+  }
+
+
+
+#contact a span {
+    text-decoration: none;
+    transition: text-decoration 0.2s ease;
+}
+
+#contact a:hover span {
+    text-decoration: underline;
+}
+
+footer {
+    padding-bottom:1.5em;
+    text-align:center;
+}
+
+footer a{
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
